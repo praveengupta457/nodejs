@@ -1,0 +1,23 @@
+1. diff bw == and === is (==) checks only value ND (===) checks value and type
+2. use of (filter function) => to find a specific value in array
+eg. => const arr=[2,3,4,54,5];
+arr.filter((item) =>{
+console.log(item)
+})
+
+output =  
+2
+3
+4
+54
+5
+
+******for a perticular value
+
+let result = arr.filter((item) =>{
+return item===3
+})
+console.warn(return)
+
+output= [3]
+my name is khan
